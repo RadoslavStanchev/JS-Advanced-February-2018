@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jQuery.min.js"></script>
+</head>
+<body>
+    <ul id="items">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ul>
+    <button onclick="extractText()">
+        Extract Text</button>
+    <div id="result"></div>
+    <script>
+        function extractText(){
+          let liValues = $('#items').find('li').toArray().map((li) => $(li).text()).join(', ')
+            $('#result').text(liValues)
+        }
+    </script>
+</body>
+</html>
