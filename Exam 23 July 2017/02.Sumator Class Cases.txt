@@ -1,0 +1,21 @@
+Test if data arr is empty
+Add:
+-add func
+-add only numbers
+-add only strings
+-add only objects
+-add mixed types
+
+Sum nums func:
+-sum with numbers
+-sum with strings
+-sum with objects
+-sum with mixed types
+
+Remove by filter:
+-removes items
+-does not remove items
+
+toString:
+-array has items
+-array does not have items
